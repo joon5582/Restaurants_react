@@ -9,7 +9,10 @@ export default function About() {
                 <Card.Body>
                     <Card.Title>About</Card.Title>
                     <Card.Text>
-                        I'm a React Developer
+                    <h4>Junwoo Lee</h4><br/>
+                    <h5>Junior Developer</h5><br/>
+                    <p>Currently in last semester in college and looking for a job to work as juniordeveloper or software engineer.<br/> Can work from May 2022 after graduation.
+                    Thinking various ideas for IT business, and training myself continuouslythrough online courses.</p>
                     </Card.Text>
                 </Card.Body>
             </Card>
