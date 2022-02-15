@@ -7,7 +7,7 @@ export default function About() {
             <Card>
                 
                 <Card.Body>
-                    <Card.Title>About</Card.Title>
+                    
                     <Card.Text>
                     <h4>Junwoo Lee</h4><br/>
                     <h5>Junior Developer</h5><br/>
