@@ -2,4 +2,4 @@
 Restaurants rating web application implemented by React
 
 
-https://frozen-lake-21565.herokuapp.com/Restaurants
+https://pure-hollows-48209.herokuapp.com/
