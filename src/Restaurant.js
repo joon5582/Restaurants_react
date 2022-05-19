@@ -8,7 +8,7 @@ export default function Restaurant() {
     let { id } = useParams();
     useEffect(() => {
         setLoading(true);
-        fetch(`https://enigmatic-dusk-50864.herokuapp.com/api/restaurants/${id}`).then(res => res.json()).then(returned => {
+        fetch(`https://vast-atoll-09483.herokuapp.com/api/restaurants/${id}`).then(res => res.json()).then(returned => {
             setLoading(false);
             if (returned.hasOwnProperty("_id")) {
                 setRestaurant(returned);
