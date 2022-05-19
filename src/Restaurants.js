@@ -11,7 +11,7 @@ export default function Restaurants() {
     useEffect(() => {
         let urlParams = new URLSearchParams(location.search);
         let borough = urlParams.get("borough");
-        fetch(`https://enigmatic-dusk-50864.herokuapp.com/api/restaurants?page=${page}&perPage=${perPage}${borough == null ? "" : "&borough=" + borough}`).then(res => res.json()).then(returned => {
+        fetch(`https://vast-atoll-09483.herokuapp.com/api/restaurants?page=${page}&perPage=${perPage}${borough == null ? "" : "&borough=" + borough}`).then(res => res.json()).then(returned => {
             setRestaurants(returned);
         }).catch(err => {
             console.log(err);
